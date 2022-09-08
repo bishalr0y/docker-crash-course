@@ -6,17 +6,20 @@ app.use(cors())
 
 const books = [
     {
-        name: "Think like a monk",
-        author: "Jay Shetty"
+        "id": 1,
+        "name": "Think like a monk",
+        "author": "Jay Shetty"
     },
     {
 
-        name: "Atomic Habits",
-        author: "James Clear"
+        "id": 2,
+        "name": "Atomic Habits",
+        "author": "James Clear"
     },
     {
-        name: "The subtle art of not giving a f**k",
-        author: "Mark Manson"
+        "id": 2,
+        "name": "The subtle art of not giving a f**k",
+        "author": "Mark Manson"
     }
 ]
 
