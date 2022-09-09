@@ -8,3 +8,10 @@ services:
     volumes:
       - ./api:/home/app
       - /home/app/node_modules #annonymous volume(docker takes care of the location to be mounted inside the host)
+  
+  myblog:
+    build: ./myblog
+    container_name: myblog_container
+    ports:
+      - 3000:3000
+    
