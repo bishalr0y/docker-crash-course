@@ -7,7 +7,7 @@ app.use(cors())
 const books = [
     {
         "id": 1,
-        "name": "Think like a monk",
+        "name": "Think like a Monk",
         "author": "Jay Shetty"
     },
     {
