@@ -5,7 +5,7 @@ services:
     volumes:
      - ./templates:/etc/nginx/templates
     ports:
-     - "8080:80"
+     - "80:80"
 #   api:
 #     build: ./api
 #     container_name: api_container
