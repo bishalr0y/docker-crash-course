@@ -1,21 +1,17 @@
 version: '3'
 services:
-  web:
-    image: tomcat
+  api:
+    build: ./api
+    container_name: api_container
     ports:
-     - "8888:8081"
-#   api:
-#     build: ./api
-#     container_name: api_container
-#     ports:
-#       - 4000:4000
-#     volumes:
-#       - ./api:/home/app
-#       - /home/app/node_modules #annonymous volume(docker takes care of the location to be mounted inside the host)
+      - 4000:4000
+    volumes:
+      - ./api:/home/app
+      - /home/app/node_modules #annonymous volume(docker takes care of the location to be mounted inside the host)
   
-#   myblog:
-#     build: ./myblog
-#     container_name: myblog_container
-#     ports:
-#       - 3000:3000
+  myblog:
+    build: ./myblog
+    container_name: myblog_container
+    ports:
+      - 3000:3000
     
