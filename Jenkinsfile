@@ -42,7 +42,7 @@ pipeline {
             }
 
             success {
-                //mail to: bishalroy895@gmail.com, subject: 'The Pipeline failed :('
+                mail to: bishalroy895@gmail.com, subject: 'The Pipeline failed :('
                 echo 'Success!'
             }
             
