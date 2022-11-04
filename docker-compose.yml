@@ -1,11 +1,9 @@
 version: '3'
 services:
   web:
-    image: nginx
-    volumes:
-     - ./templates:/etc/nginx/templates
+    image: tomcat
     ports:
-     - "80:80"
+     - "8888:8081"
 #   api:
 #     build: ./api
 #     container_name: api_container
