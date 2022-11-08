@@ -33,7 +33,7 @@ pipeline {
         // }
         stage('build') {
             steps {
-                echo 'building the application again and again and again!!'
+                echo 'building the application again and again and again!'
             }
         }
         
