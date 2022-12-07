@@ -16,7 +16,7 @@ const books = [
     },
     {
         "id": 3,
-        "title": "The subtle art of not giving a f**k"
+        "title": "The power of subconscious mind"
     }
 ]
 
